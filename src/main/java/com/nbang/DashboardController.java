@@ -12,7 +12,7 @@ import java.util.Map;
 @CrossOrigin(origins = {
   "http://localhost:3000",
   "http://localhost:5173",
-  "https://n-b-bang-frontend-5g58.vercel.app"
+  "https://n-b-bang-frontend.vercel.app/"
 })
 public class DashboardController {
 
