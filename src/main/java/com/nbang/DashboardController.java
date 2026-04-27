@@ -9,7 +9,11 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/v1")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:3000", "http://localhost:5173"})
+@CrossOrigin(origins = {
+  "http://localhost:3000",
+  "http://localhost:5173",
+  "https://n-b-bang-frontend-5g58.vercel.app"
+})
 public class DashboardController {
 
     private final DashboardService dashboardService;
